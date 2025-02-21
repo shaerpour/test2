@@ -1,0 +1,9 @@
+- name: test2
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Create test2 file
+      file:
+        path: /tmp/user2.txt
+        mode: "0644"
+
